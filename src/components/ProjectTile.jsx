@@ -33,9 +33,9 @@ const ProjectTile = ({
                   alt="source code"
                   className="relative w-1/2 h-1/2 object-contain  translate-x-1/2"
                 />
-                <div className="absolute z-10  bottom-full mb-2 w-28 p-2 bg-primary text-white text-sm rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                {/* <div className="absolute z-10  bottom-full mb-2 w-auto p-2 bg-primary text-white text-sm rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   Open GitHub repositories.
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

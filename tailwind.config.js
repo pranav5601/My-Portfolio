@@ -19,7 +19,7 @@ module.exports = {
         xs: "430px",
         ss: {
           max: "640px",
-          min: "430px",
+          min: "0px",
         },
       },
       backgroundImage: {
