@@ -5,6 +5,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/mousewheel";
 import { Navigation, Pagination, Keyboard, Mousewheel } from "swiper/modules";
+import { heroImgList } from "../constants";
 import { useLocation } from "react-router-dom";
 import { backArrow } from "../assets";
 import { styles } from "../styles";
@@ -17,7 +18,7 @@ const ProjectDetails = () => {
 
   return (
     <div className="pb-28 pt-10 bg-primary">
-      <div className="container  mx-auto ">
+      <div className=" mx-auto ">
         <div className="flex items-center gap-2 mb-4 ">
           <button
             onClick={() => window.history.back()}
@@ -58,14 +59,14 @@ const ProjectDetails = () => {
           ))}
         </Swiper>
 
-        <div className="md:mt-10 mt-16 ml-16">
+        <div className="md:mt-10 mt-16 mx-16">
           <h1
             className={`${styles.sectionHeadText} font-bold  orange-text-gradient`}
           >
             Description
           </h1>
 
-          <div className="mt-4  md:mt-2 ">
+          <div className="mt-4  md:mt-2 flex flex-col gap-4">
             {description.map((desc, index) => (
               <p key={index} className="text-lg leading-relaxed">
                 {desc}

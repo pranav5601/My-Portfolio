@@ -54,6 +54,7 @@ import sd_post from "./stock_details/sd_post.jpg";
 
 import resume from "./Resume_Pranav.pdf";
 import download from "./download.svg";
+import quiz_poster from "./quiz_poster.png";
 
 export {
   download,
@@ -76,6 +77,7 @@ export {
   iRoid,
   hero_image,
   vectorPoint,
+  quiz_poster,
   android,
   npv_cover,
   note_cover,

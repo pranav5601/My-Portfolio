@@ -33,6 +33,7 @@ import {
   qq_ans_wrong,
   qq_last_score,
   sd_post,
+  quiz_poster,
 } from "../assets";
 
 export const heroImgList = [androidLogo, reactLogo, backendLogo];
@@ -276,7 +277,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
+    image: quiz_poster,
     screen_shots: [
       qq_home,
       qq_last_score,
